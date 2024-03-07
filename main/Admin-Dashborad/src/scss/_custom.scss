@@ -1,0 +1,80 @@
+// Here you can add other styles
+@media (min-width: 992px) {
+  .main-col {
+    width: 33.33%;
+  }
+}
+.custom-color,
+.custom-color:hover {
+  background-color: #15b3ce;
+  border: none;
+}
+.btn-link {
+  color: #15b3ce;
+}
+.login-page {
+  background-image: url('../assets/images/login_banner.jpg');
+  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.errors {
+  color: #ff0000;
+}
+.success {
+  color: #40903c;
+}
+
+.main-logo img {
+  width: auto;
+  color: #15b3ce;
+}
+.update-button {
+  display: flex;
+  justify-content: end;
+}
+.avatar-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.avatar-md {
+  margin-right: 10px;
+}
+
+html:not([dir='rtl']) .ms-2 {
+  margin-left: 9rem !important;
+}
+
+.right-text {
+  display: flex;
+  justify-content: right;
+  margin-top: -27px;
+  margin-bottom: 12px;
+}
+.AddButton {
+  background-color: #15b3ce !important;
+}
+
+/* -------------------------- datatable responsive -------------------------- */
+@media (max-width: 900px) {
+  .MuiTableHead-root {
+    display: none !important;
+  }
+  .MuiTableCell-sizeMedium {
+    display: inline-block !important;
+  }
+  .MuiTableCell-paddingCheckbox {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 426px) {
+  .tss-1vd39vz-MUIDataTableBodyCell-stackedCommon {
+    font-size: 10px !important;
+  }
+}
